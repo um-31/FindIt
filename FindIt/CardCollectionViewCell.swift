@@ -55,5 +55,29 @@ class CardCollectionViewCell: UICollectionViewCell {
         
         card?.isFlipped = true
     }
+    func filpBack()
+    {
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
+            UIView.transition(from: self.backImageView, to: self.frontImageView, duration: 0.5, options: [.transitionFlipFromRight,.showHideTransitionViews], completion: nil)
+        }
+        
+        
+        card?.isFlipped = false
+    }
+    
+    func remove() {
+        
+        backImageView.alpha = 0
+        
+        
+        
+        UIView.animate(withDuration: 0.3, delay: 1, options: .curveEaseInOut, animations: {
+            
+            self.frontImageView.alpha = 0
+            
+        }, completion: nil)
+        
+    }
     
 }
