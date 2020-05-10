@@ -16,6 +16,8 @@
 		E9101A002468B83400CBD06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91019FE2468B83400CBD06F /* LaunchScreen.storyboard */; };
 		E9101A0B2468B83400CBD06F /* FindItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9101A0A2468B83400CBD06F /* FindItTests.swift */; };
 		E9101A162468B83500CBD06F /* FindItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9101A152468B83500CBD06F /* FindItUITests.swift */; };
+		E9101A242468BC8200CBD06F /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9101A232468BC8200CBD06F /* CardCollectionViewCell.swift */; };
+		E9101A262468BCB900CBD06F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9101A252468BCB900CBD06F /* CardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E9101A112468B83500CBD06F /* FindItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9101A152468B83500CBD06F /* FindItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindItUITests.swift; sourceTree = "<group>"; };
 		E9101A172468B83500CBD06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9101A232468BC8200CBD06F /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		E9101A252468BCB900CBD06F /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				E91019F02468B83200CBD06F /* AppDelegate.swift */,
 				E91019F22468B83200CBD06F /* SceneDelegate.swift */,
 				E91019F42468B83200CBD06F /* ViewController.swift */,
+				E9101A232468BC8200CBD06F /* CardCollectionViewCell.swift */,
+				E9101A252468BCB900CBD06F /* CardModel.swift */,
 				E91019F62468B83200CBD06F /* Main.storyboard */,
 				E91019FC2468B83400CBD06F /* Assets.xcassets */,
 				E91019FE2468B83400CBD06F /* LaunchScreen.storyboard */,
@@ -265,7 +271,9 @@
 				E91019F52468B83200CBD06F /* ViewController.swift in Sources */,
 				E91019FB2468B83200CBD06F /* FindIt.xcdatamodeld in Sources */,
 				E91019F12468B83200CBD06F /* AppDelegate.swift in Sources */,
+				E9101A242468BC8200CBD06F /* CardCollectionViewCell.swift in Sources */,
 				E91019F32468B83200CBD06F /* SceneDelegate.swift in Sources */,
+				E9101A262468BCB900CBD06F /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
