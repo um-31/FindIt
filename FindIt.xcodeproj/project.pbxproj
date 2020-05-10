@@ -18,6 +18,7 @@
 		E9101A162468B83500CBD06F /* FindItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9101A152468B83500CBD06F /* FindItUITests.swift */; };
 		E9101A242468BC8200CBD06F /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9101A232468BC8200CBD06F /* CardCollectionViewCell.swift */; };
 		E9101A262468BCB900CBD06F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9101A252468BCB900CBD06F /* CardModel.swift */; };
+		E9101A282468BD0C00CBD06F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9101A272468BD0C00CBD06F /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E9101A172468B83500CBD06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9101A232468BC8200CBD06F /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		E9101A252468BCB900CBD06F /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		E9101A272468BD0C00CBD06F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				E91019F42468B83200CBD06F /* ViewController.swift */,
 				E9101A232468BC8200CBD06F /* CardCollectionViewCell.swift */,
 				E9101A252468BCB900CBD06F /* CardModel.swift */,
+				E9101A272468BD0C00CBD06F /* Card.swift */,
 				E91019F62468B83200CBD06F /* Main.storyboard */,
 				E91019FC2468B83400CBD06F /* Assets.xcassets */,
 				E91019FE2468B83400CBD06F /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 			files = (
 				E91019F52468B83200CBD06F /* ViewController.swift in Sources */,
 				E91019FB2468B83200CBD06F /* FindIt.xcdatamodeld in Sources */,
+				E9101A282468BD0C00CBD06F /* Card.swift in Sources */,
 				E91019F12468B83200CBD06F /* AppDelegate.swift in Sources */,
 				E9101A242468BC8200CBD06F /* CardCollectionViewCell.swift in Sources */,
 				E91019F32468B83200CBD06F /* SceneDelegate.swift in Sources */,
