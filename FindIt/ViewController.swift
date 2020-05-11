@@ -23,19 +23,19 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     var firstFlippedCardIndex:IndexPath?
     
     var timer:Timer?
-    var millisecond:Float = 30 * 1000 //10 seconds
+    var millisecond:Float = 30 * 1000
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //Call the get card method of the card model
+        
         cardArray = model.getCards()
         
         collectionView.delegate = self
         collectionView.dataSource = self
         
-        //create timer
+        
         timerLabel.textColor = UIColor.black
         timer = Timer.scheduledTimer(timeInterval: 0.001, target: self, selector: #selector(timerLeft), userInfo: nil, repeats: true)
         RunLoop.main.add(timer!, forMode: .common)
@@ -48,7 +48,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 //        SoundManager.playSound(.shuffle)
     }
     
-    // MARK:- Timer Methods
+    
     
     @objc func timerLeft() {
         
@@ -73,7 +73,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
     }
     
-    // MARK:- UICollectionView Protocol Methods
+    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
@@ -135,7 +135,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
     }
     
-    //Mark :- Match Function Logic(Game Logic Function)
+    
     
     func checkForMatches(_ secondFlippedCardIndex:IndexPath) {
         
